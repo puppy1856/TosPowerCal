@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.florent37:bubbletab-1.0.2">
+    <CLASSES>
+      <root url="jar://H:/Android/.Gradle/caches/transforms-1/files-1.1/bubbletab-1.0.2.aar/adc65dc0f9ed9f55777a6e9e7bc03581/jars/classes.jar!/" />
+      <root url="file://H:/Android/.Gradle/caches/transforms-1/files-1.1/bubbletab-1.0.2.aar/adc65dc0f9ed9f55777a6e9e7bc03581/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://H:/Android/.Gradle/caches/modules-2/files-2.1/com.github.florent37/bubbletab/1.0.2/fefc3ecc113a70baf6e4e34a5fe0319db8ef23d1/bubbletab-1.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

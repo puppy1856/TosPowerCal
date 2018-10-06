@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="7.5"
+        android:background="#B5B5B5"
+        android:text="@string/fgmAcc_settingLanguageTitle"
+        android:textColor="#000000"
+        android:textSize="30sp"/>
+
+    <RadioGroup
+        android:id="@+id/fgmAcc_labguage_radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="456dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:visibility="invisible"/>
+
+        <RadioButton
+            android:id="@+id/fgmAcc_language_radiobtnAuto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="@string/languageSetAuto"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:layout_width="456dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:visibility="invisible"/>
+
+        <RadioButton
+            android:id="@+id/fgmAcc_language_radiobtnEnglish"
+            android:layout_width="430dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="@string/English"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:layout_width="456dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:visibility="invisible"/>
+
+        <RadioButton
+            android:id="@+id/fgmAcc_language_radiobtnTraditionalChinese"
+            android:layout_width="411dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="@string/TraditionalChinese"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:layout_width="456dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:visibility="invisible"/>
+
+        <RadioButton
+            android:id="@+id/fgmAcc_language_radiobtnSimplifiedChinese"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="@string/SimplifiedChinese"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:layout_width="456dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:visibility="invisible"/>
+    </RadioGroup>
+
+</LinearLayout>

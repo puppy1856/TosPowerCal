@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.xw.repo:bubbleseekbar-3.19">
+    <CLASSES>
+      <root url="file://H:/Android/.Gradle/caches/transforms-1/files-1.1/bubbleseekbar-3.19.aar/5324c3f0ac9d6749ca14e60c1a593083/res" />
+      <root url="jar://H:/Android/.Gradle/caches/transforms-1/files-1.1/bubbleseekbar-3.19.aar/5324c3f0ac9d6749ca14e60c1a593083/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://H:/Android/.Gradle/caches/modules-2/files-2.1/com.xw.repo/bubbleseekbar/3.19/35b26a3ee5ff4c035218f0d8a32c0b292c02d4f6/bubbleseekbar-3.19-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

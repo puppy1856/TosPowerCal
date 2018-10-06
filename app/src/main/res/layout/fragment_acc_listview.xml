@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/fgmAcc_tv_listVTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="設定選項Title"
+        android:textColor="#000000"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/fgmAcc_tv_listVContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="設定選項內容"
+        android:textAlignment="textStart"
+        android:textSize="20sp"/>
+</LinearLayout>
