@@ -14,8 +14,8 @@
     <string name="cleanDone">All alarm were cleaned</string>
     <string name="fgmAla_vibrateOn">Vivrate On</string>
     <string name="fgmAla_vibrateOff">Vibrate Off</string>
-    <string name="fgmAla_voiceOn">Voice On</string>
-    <string name="fgmAla_voiceOff">Voice Off</string>
+    <string name="fgmAla_voiceOn">Sound On</string>
+    <string name="fgmAla_voiceOff">Sound Off</string>
     <string name="fgmAla_dialogTitle1">Alarm claen</string>
     <string name="fgmAla_dialogMsg1">Do you realy want claen all plan?</string>
     <string name="fgmAla_dialogTitle2">Delete plan</string>
@@ -29,7 +29,7 @@
     <string name="fgmAla_layout_tv3">Vibrate</string>
     <string name="fgmAla_layout_togBtnOn">On</string>
     <string name="fgmAla_layout_togBtnOff">Off</string>
-    <string name="fgmAla_layout_tv4">Voice</string>
+    <string name="fgmAla_layout_tv4">Sound</string>
     <string name="fgmAla_layout_btn2">Clean plan</string>
     <string name="fgmCal_layout_tv1">Now energy</string>
     <string name="fgmCal_layout_tv2">Max Energy</string>
