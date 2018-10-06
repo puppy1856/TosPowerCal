@@ -3465,7 +3465,7 @@
     <property name="android.project.structure.last.selected" value="SDK Location" />
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="android.sdk.path" value="H:/Android/sdk" />
-    <property name="device.picker.selection" value="CB512A9CTX" />
+    <property name="device.picker.selection" value="127.0.0.1:52001" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../HealthManager/HealthManager_project" />
     <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
   </component>
