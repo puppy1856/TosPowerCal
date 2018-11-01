@@ -11,6 +11,8 @@ Version 1.0.1
 
 ![](app3.jpg)
 
+![](app4.jpg)
+
 # Open Source project used, Thanks
 [AndroidViewAnimations](https://github.com/daimajia/AndroidViewAnimations)
 
