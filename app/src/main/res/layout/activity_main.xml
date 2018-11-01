@@ -17,27 +17,35 @@
         app:bubbleTab_circleRatio="1.25"
         >
 
-        <ImageView
+        <TextView
+            android:id="@+id/tab_tv_energy"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:padding="16dp"
-            android:src="@drawable/ic_tab_cal_selector" />
+            android:drawableTop="@drawable/ic_tab_cal_selector"
+            android:text="@string/energycal"
+            android:textAlignment="center"
+            android:textColor="#D3D3D3"/>
 
-        <ImageView
+        <TextView
+            android:id="@+id/tab_tv_alarm"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:padding="16dp"
-            android:src="@drawable/ic_tab_alarm_selector" />
+            android:drawableTop="@drawable/ic_tab_alarm_selector"
+            android:text="@string/alarm"
+            android:textAlignment="center"
+            android:textColor="#D3D3D3"/>
 
-        <ImageView
+        <TextView
+            android:id="@+id/tab_tv_setting"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:padding="16dp"
-            android:src="@drawable/ic_tab_account_selector" />
-
+            android:drawableTop="@drawable/ic_tab_cal_selector"
+            android:text="@string/setting"
+            android:textAlignment="center"
+            android:textColor="#D3D3D3"/>
     </com.github.florent37.bubbletab.BubbleTab>
 
     <android.support.v4.view.ViewPager

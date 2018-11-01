@@ -44,4 +44,7 @@
     <string name="SimplifiedChinese">SimplifiedChinese</string>
     <string name="author">Author:puppy1856</string>
     <string name="my_github">My GitHub</string>
+    <string name="energycal">EnergyCal</string>
+    <string name="alarm">Alarm</string>
+    <string name="setting">Setting</string>
 </resources>

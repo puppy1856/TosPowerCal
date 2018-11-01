@@ -3,7 +3,7 @@
 
 The game "Tower of Saviors 神魔之塔" energy calculating application
 
-Version 1.0.0
+Version 1.0.1
 
 ![](app1.jpg)
 
@@ -15,6 +15,8 @@ Version 1.0.0
 [AndroidViewAnimations](https://github.com/daimajia/AndroidViewAnimations)
 
 [BubbleSeekBar](https://github.com/woxingxiao/BubbleSeekBar)
+
+[BubbleTab](https://github.com/florent37/BubbleTab)
 
 # Apk location:app-release.apk
 [Location](./app/release/)

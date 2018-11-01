@@ -44,4 +44,7 @@
     <string name="SimplifiedChinese">简体中文</string>
     <string name="author">作者:puppy1856</string>
     <string name="my_github">我的Github</string>
+    <string name="energycal">体力计算</string>
+    <string name="alarm">闹钟</string>
+    <string name="setting">设定</string>
 </resources>
