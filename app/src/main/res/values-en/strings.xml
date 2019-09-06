@@ -47,4 +47,8 @@
     <string name="energycal">EnergyCal</string>
     <string name="alarm">Alarm</string>
     <string name="setting">Setting</string>
+    <string name="fgmAcc_appNameTitle">OpenApp</string>
+    <string name="apkName">Apk Version</string>
+    <string name="googlePlayName">GooglePlay Version</string>
+    <string name="openAppSettingWrong">version is not install,please recheck!</string>
 </resources>

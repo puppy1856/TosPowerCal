@@ -47,4 +47,8 @@
     <string name="energycal">體力計算</string>
     <string name="alarm">鬧鐘</string>
     <string name="setting">設定</string>
+    <string name="fgmAcc_appNameTitle">通知開啟App</string>
+    <string name="apkName">Apk 版本</string>
+    <string name="googlePlayName">GooglePlay 版本</string>
+    <string name="openAppSettingWrong">版本未安裝,請檢查!</string>
 </resources>

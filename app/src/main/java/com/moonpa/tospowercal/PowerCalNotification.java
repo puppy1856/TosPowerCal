@@ -4,6 +4,7 @@ import android.app.Notification;
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
+import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -19,6 +20,7 @@ public class PowerCalNotification
 {
     final String SETTING = "setting";
     final String CHANNEL_ID = "TosPowerCal";
+    private String openApp;
     private int icon = R.mipmap.ic_launcher;
     private int id,notify;
     private boolean notifyChannelCheck;
@@ -36,10 +38,24 @@ public class PowerCalNotification
         notifyChannelCheck = setting.getBoolean("notifyChannelCheck", false);
         vibrate = setting.getBoolean("vibrate",true);
         voice = setting.getBoolean("voice",true);
+        openApp = setting.getString("enterAPP","default");
 
         noMgr = (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);
-        I = new Intent(context,MainActivity.class);
-        I.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        switch (openApp){
+            case "default":
+                I = new Intent(context,MainActivity.class);
+                break;
+            case "Apk":
+                I = new Intent();
+                I.setComponent(new ComponentName("com.madhead.tos.zh","com.madhead.tos.plugins.GameActivity"));
+                I.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                break;
+            case "GooglePlay":
+                I = new Intent();
+                I.setComponent(new ComponentName("com.madhead.tos.zh.ex","com.madhead.tos.plugins.GameActivity"));
+                I.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                break;
+        }
         appIntent = PendingIntent.getActivity(context, 0, I, 0);
 
         if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.O)

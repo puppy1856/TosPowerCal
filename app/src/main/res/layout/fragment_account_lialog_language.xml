@@ -14,7 +14,7 @@
         android:textSize="30sp"/>
 
     <RadioGroup
-        android:id="@+id/fgmAcc_labguage_radioGroup"
+        android:id="@+id/fgmAcc_language_radioGroup"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1">
@@ -54,7 +54,7 @@
             android:visibility="invisible"/>
 
         <RadioButton
-            android:id="@+id/fgmAcc_language_radiobtnTraditionalChinese"
+            android:id="@+id/fgmAcc_language_radiobtnTraditional"
             android:layout_width="411dp"
             android:layout_height="wrap_content"
             android:layout_weight="3"
@@ -68,7 +68,7 @@
             android:visibility="invisible"/>
 
         <RadioButton
-            android:id="@+id/fgmAcc_language_radiobtnSimplifiedChinese"
+            android:id="@+id/fgmAcc_language_radiobtnSimplified"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="3"
