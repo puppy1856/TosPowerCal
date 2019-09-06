@@ -45,12 +45,12 @@ public class PowerCalNotification
             case "default":
                 I = new Intent(context,MainActivity.class);
                 break;
-            case "Apk":
+            case "GooglePlay":
                 I = new Intent();
                 I.setComponent(new ComponentName("com.madhead.tos.zh","com.madhead.tos.plugins.GameActivity"));
                 I.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 break;
-            case "GooglePlay":
+            case "Apk":
                 I = new Intent();
                 I.setComponent(new ComponentName("com.madhead.tos.zh.ex","com.madhead.tos.plugins.GameActivity"));
                 I.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
